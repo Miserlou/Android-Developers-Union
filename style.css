@@ -1,0 +1,106 @@
+html{
+	background: url(bg.png);
+	margin: 0;
+	width: 100%;
+}
+
+body{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	background: url(bg2.png);
+	font-family: Palatino,Georgia,"Times New Roman",serif;
+  -moz-box-shadow: 0 0 25px #000;
+  -webkit-box-shadow: 0 0 25px #000;
+  box-shadow: 0 0 25px #000;
+}
+
+body:after{
+	background-image: url("redstar.png");
+	background: url("redstar.png");
+	position: absolute;
+  background-repeat:no-repeat;
+  background-position:left top;
+	top: 10px;
+	left: 10px;  
+	height: 1000px;
+	width: 1000px;
+	display: block; 
+	z-index: 200;
+}
+
+h1{
+	margin: 0;
+	padding: 4px 24px 24px 4px;
+	color: #fff;
+	text-shadow: #5c7025 0px -1px 1px;
+	font-family: Helvetica, sans-serif;
+}
+
+nav{
+	position: absolute;
+  top: 0;
+	right: 0;
+}
+
+nav li{
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	margin: 0;
+	padding: 12px 4px 24px 4px;
+	color: #fff;
+	text-shadow: #5c7025 0px -1px 1px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	color: #fff;
+	text-shadow: #5c7025 0px -1px 1px;
+	font-family: Helvetica, sans-serif;
+}
+
+header{
+	background: -moz-linear-gradient(top, #a3cb37, white);
+	background: -webkit-gradient(linear, left top, left bottom, from(#a3cb37), to(#fff));
+	margin: 0 auto;
+	padding: 0px 12px 0px 12px;
+}
+
+#masthead{
+	padding: 0px 12px 0px 12px;
+}
+#masthead img{
+	float: left;	
+}
+
+#masthead h2{
+	text-align: center;
+	color: #878787;
+	font-size: 4em;
+	font-family: Palatino,Georgia,"Times New Roman",serif;
+	text-shadow: #000000 0px 2px 1px;
+}
+
+#intro{
+	padding: 0px 24px 0px 24px;
+	font-size: 1.25em;
+	color: #2f2f2f;
+}
+
+#demands{
+	clear: both;
+}
+
+#demands table{
+	width: 640px;
+	margin: 0 auto;
+}
+
+#demands td{
+	text-align: center;
+}
+
