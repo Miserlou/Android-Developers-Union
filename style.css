@@ -165,6 +165,10 @@ header{
 	font-size: 1.5em;
 }
 
+#demands img{
+	padding: 0px 6px 0px 6px;
+}
+
 a{
 	font-weight:bold;
 	color: #9abf32;
