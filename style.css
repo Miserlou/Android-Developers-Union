@@ -53,34 +53,34 @@ nav li{
 	text-align: center;
 	margin: 0;
 	padding: 18px 4px 24px 4px;
-	color: #white;
+	color: #fff;
 	text-shadow: #5c7025 0px -1px 1px;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.3em;
 }
 
 nav a:visited{
-	color: #white;
+	color: #fff;
 	text-decoration: none;
 	font-weight: normal;
 	
 }
 
 nav a:link{
-	color: #white;
+	color: #fff;
 	text-decoration: none;
 	font-weight: normal;
 }
 
 nav a:hover{
-	color: #white;
+	color: #fff;
 	text-decoration: none;
 	font-weight: normal;
 	text-shadow: #fff 1px 0px 4px;
 }
 
 nav a:active{
-	color: #white;
+	color: #fff;
 	text-decoration: none;
 	font-weight: normal;
 }
@@ -94,13 +94,13 @@ nav ul{
 }
 
 header{
-	background: -webkit-gradient(linear, left top, left bottom, from(#a3cb37), to(#fffff6));
 	background: -moz-linear-gradient(top, #a3cb37, #fffff6);
-	margin: 0 auto;
+	background: -webkit-gradient(linear, left top, left bottom, from(#a3cb37), to(#fffff6));
+	margin: 0px auto;
 	padding: 0px 12px 0px 12px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	margin: 2px 0 0 0;
+	margin: 2px 0px 0px 0px;
 }
 
 #masthead{
@@ -161,7 +161,7 @@ header{
 	text-align: center;
 	padding: 36px 24px 12px 24px;
 	font-size: .75em;
-	color: black;
+	color: #000;
 	font-family: Palatino,Georgia,"Times New Roman",serif;
 }
 
