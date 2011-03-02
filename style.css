@@ -59,6 +59,32 @@ nav li{
 	font-size: 1.3em;
 }
 
+nav a:visited{
+	color: #white;
+	text-decoration: none;
+	font-weight: normal;
+	
+}
+
+nav a:link{
+	color: #white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+nav a:hover{
+	color: #white;
+	text-decoration: none;
+	font-weight: normal;
+	text-shadow: #fff 1px 0px 4px;
+}
+
+nav a:active{
+	color: #white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
 nav ul{
 	list-style-type: none;
 	margin: 0;
@@ -105,6 +131,25 @@ header{
 }
 
 #join p{
+	padding: 0px 24px 0px 24px;
+	font-size: 1.25em;
+	color: #2f2f2f;
+	font-family: Palatino,Georgia,"Times New Roman",serif;
+}
+
+#contact{
+	padding: 0px 12px 0px 12px;
+}
+
+#contact h2{
+	text-align: center;
+	color: #878787;
+	font-size: 3em;
+	font-family: Palatino,Georgia,"Times New Roman",serif;
+	text-shadow: #000000 0px 2px 1px;
+}
+
+#contact p{
 	padding: 0px 24px 0px 24px;
 	font-size: 1.25em;
 	color: #2f2f2f;
@@ -179,6 +224,13 @@ a:visited{
 	font-weight: bold;
 	color: #9abf32;
 	text-decoration: underline;
+}
+
+a:hover{
+	font-weight: bold;
+	color: #9abf32;
+	text-decoration: underline;
+	text-shadow: #5c7025 1px 1px 1px;
 }
 
 #demands td.two{
